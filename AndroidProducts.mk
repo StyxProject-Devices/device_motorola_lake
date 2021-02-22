@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lake.mk
+    $(LOCAL_DIR)/styx_lake.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lake-eng \
-    lineage_lake-user \
-    lineage_lake-userdebug
+    styx_lake-eng \
+    styx_lake-user \
+    styx_lake-userdebug
