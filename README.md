@@ -1,6 +1,6 @@
 Copyright 2019 - The LineageOS Project
 
-Device configuration for Motorola G7 Plus (lake)
+Unified device configuration for Moto G7 Plus & REVVLRY+ (lake/lake_revvl)
 ==================================
 
 Basic   | Spec Sheet
@@ -10,6 +10,7 @@ CHIPSET | Qualcomm SDM636 Snapdragon 636
 GPU     | Adreno 509
 Memory  | 4GB
 Shipped Android Version | 9 (Pie)
+Latest Android Version | 10 (Q)
 Storage | 64GB
 Battery | 3000 mAh
 Dimensions | 157 x 75.3 x 8.3 mm
