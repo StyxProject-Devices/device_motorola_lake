@@ -74,5 +74,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys
 
-# StyxOS Variant
+# StyxOS Maintainer
 STYX_BUILD_VARIANT := OFFICIAL
+
+PRODUCT_PRODUCT_PROPERTIES += \
+  org.styxproject.maintainer=Fraaxius
