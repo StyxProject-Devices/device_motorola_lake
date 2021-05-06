@@ -1,6 +1,9 @@
 # Device Proprietary files - from motorola/lake_retail/lake:10/QPWS30.61-21-18-7/fac4a:user/release-keys, unless pinned
 #
 
+# APNs
+product/etc/apns-conf.xml
+
 # Audio - ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/General_cal.acdb
