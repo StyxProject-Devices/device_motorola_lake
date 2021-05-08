@@ -6,9 +6,9 @@
     "remote": "github"
   },
   {
-    "repository": "LineageOS/android_kernel_motorola_msm8998",
+    "repository": "StyxProject-Devices/kernel_motorola_msm8998",
     "target_path": "kernel/motorola/sdm660",
-    "branch": "lineage-18.1",
+    "branch": "R",
     "remote": "github"
   },
   {
@@ -18,9 +18,9 @@
     "remote": "github"
   },
   {
-    "repository": "LineageOS/android_hardware_motorola",
+    "repository": "StyxProject/hardware_motorola",
     "target_path": "hardware/motorola",
-    "branch": "lineage-18.1",
+    "branch": "R",
     "remote": "github"
   },
   { 
