@@ -1,33 +1,25 @@
 [
   {
-    "repository": "StyxProject-Devices/device_motorola_sdm660-common",
-    "target_path": "device/motorola/sdm660-common",
-    "branch": "R",
-    "remote": "github"
+    "repository": "device_motorola_lake",
+    "target_path": "device/motorola/lake"
   },
   {
-    "repository": "StyxProject-Devices/kernel_motorola_msm8998",
-    "target_path": "kernel/motorola/sdm660",
-    "branch": "R",
-    "remote": "github"
+    "repository": "device_motorola_sdm660-common",
+    "target_path": "device/motorola/sdm660-common"
   },
   {
-    "repository": "StyxProject-Devices/vendor_motorola",
-    "target_path": "vendor/motorola",
-    "branch": "R",
-    "remote": "github"
+    "repository": "kernel_motorola_msm8998",
+    "target_path": "kernel/motorola/msm8998"
   },
   {
-    "repository": "StyxProject/hardware_motorola",
-    "target_path": "hardware/motorola",
-    "branch": "R",
-    "remote": "github"
+    "repository": "vendor_motorola",
+    "target_path": "vendor/motorola"
   },
-  { 
+  {
     "repository": "NemesisDevelopers/moto-camera/motorola_camera2_denali",
     "target_path": "packages/apps/MotCamera2",
-    "branch": "eleven-arm64",
-    "remote": "gitlab"
+    "remote": "gitlab",
+    "branch": "eleven-arm64"
   },
   {
     "repository": "NemesisDevelopers/moto-camera/motorola_camera2_overlay",
@@ -38,19 +30,7 @@
   {
     "repository": "NemesisDevelopers/motorola/motorola_livewallpaper3",
     "target_path": "packages/apps/MotoLiveWallpaper3",
-    "branch": "eleven",
-    "remote": "gitlab"
-  },
-  {
-    "repository": "LineageOS/android_system_qcom",
-    "target_path": "system/qcom",
-    "branch": "lineage-18.1",
-    "remote": "github"
-  },
-  {
-    "repository": "LineageOS/android_external_bson",
-    "target_path": "external/bson",
-    "branch": "lineage-18.1",
-    "remote": "github"
+    "remote": "gitlab",
+    "branch": "eleven"
   }
 ]
