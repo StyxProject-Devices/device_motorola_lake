@@ -48,7 +48,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_madera_single_pa.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_madera_single_pa.xml
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2160
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SCREEN_HEIGHT := 2270
 TARGET_SCREEN_WIDTH := 1080
 
 # Bluetooth
