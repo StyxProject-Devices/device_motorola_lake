@@ -1,6 +1,6 @@
 Copyright 2019 - The LineageOS Project
 
-Unified device configuration for Moto G7 Plus & REVVLRY+ (lake/lake_revvl)
+Device configuration for Moto G7 Plus & REVVLRY+ (lake/lake_revvl)
 ==================================
 
 Basic   | Spec Sheet
@@ -20,12 +20,22 @@ Front Camera | 12 MP, 1.25µm
 
 **This tree has Moto Camera 2 included, for build do this:**
 
-`git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_denali.git -b eleven-arm64 packages/apps/MotCamera2`
+```
+git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_denali.git -b eleven-arm64 packages/apps/MotCamera2
+```
 
-`git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_overlay.git -b ten packages/apps/MotCamera2-overlay`
+```
+git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_overlay.git -b ten packages/apps/MotCamera2-overlay
+```
 
-`git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_motosignatureapp.git -b eleven packages/apps/MotoSignatureApp`
+```
+git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_motosignatureapp.git -b eleven packages/apps/MotoSignatureApp
+```
 
-**Now in Styx, TimeWeather, SignatureApp & LiveWallpapers3 is there from source.**
+**Now in Styx, the following apps are available & you don't need add to device trees:**
+
+* Moto TimeWeather (The clock)
+* MotoSignatureApp (For update apps via Play Store)
+* MotoLiveWallpaper3 (Cool live wallpapers)
 
 ![Moto G7 Plus](https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g7-plus-2.jpg "Moto G7 Plus")
