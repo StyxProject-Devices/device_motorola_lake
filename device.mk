@@ -52,9 +52,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_HEIGHT := 2270
 TARGET_SCREEN_WIDTH := 1080
 
-# Bluetooth
-PRODUCT_SOONG_NAMESPACES += packages/apps/Bluetooth
-
 # Fingerprint Gestures
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-egis.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-egis.kl \
