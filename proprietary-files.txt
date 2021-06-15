@@ -72,6 +72,8 @@ vendor/lib/libmot_ois_data.so
 vendor/lib/libmotimager_utils.so
 vendor/lib/libois_mot_bm24311.so
 vendor/lib64/libcdsprpc.so
+vendor/lib/libmcf-qc-fd-offline.so
+vendor/lib64/libmcf-qc-fd-offline.so
 
 # Camera - Chromatix
 vendor/lib/libchromatix_imx386_4k_video_3a.so
@@ -309,6 +311,10 @@ vendor/lib/libchromatix_s5k2l7sa_snapshot.so
 vendor/lib/libchromatix_s5k2l7sa_video_4k.so
 
 # Camera - mmcamera
+system/lib/libmmcamera_faceproc.so
+system/lib/libmmcamera_faceproc2.so
+system/lib64/libmmcamera_faceproc.so
+system/lib64/libmmcamera_faceproc2.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_frame_algorithm.so
@@ -412,6 +418,7 @@ vendor/lib/libmmcamera_pdaf.so
 vendor/lib/libmmcamera_ppbase_module.so
 vendor/lib/libmmcamera_ppeiscore.so
 vendor/lib/libmmcamera_quadracfa.so
+vendor/lib/libmmcamera_sat_test_lib.so
 vendor/lib/libmmcamera_s5k4h7a8s_eeprom.so
 vendor/lib/libmmcamera_s5k4h7_eeprom.so
 vendor/lib/libmmcamera_s5k4h8_aux.so
